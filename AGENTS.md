@@ -1,0 +1,2 @@
+- Keep brand artwork in `src/assets` and import the local files directly.
+- Keep full navigation desktop-only and provide a collapsible menu below the desktop breakpoint; this avoids crowding the logo on tablets.
