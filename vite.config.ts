@@ -9,7 +9,9 @@ export default defineConfig(({ command }) => ({
   plugins: [
     tailwindcss(),
     tanstackStart({ server: { entry: "server" } }),
-    ...(command === "build" ? [nitro({ preset: "node-server" })] : []),
+    ...(command === "build"
+      ? [nitro({ preset: process.env.VERCEL === "1" ? "vercel" : "node-server" })]
+      : []),
     react(),
   ],
 }));
