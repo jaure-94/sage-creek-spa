@@ -30,7 +30,7 @@ export const Route = createFileRoute("/")({
 });
 
 // Placeholder contact details — replace with real ones
-const PHONE = "+263 77 355 6557";
+const PHONE = "+263 71 818 6989";
 const EMAIL = "sales@sagecreek.co.zw";
 
 const fadeUp: Variants = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0, transition: { duration: 0.5 } } };
@@ -63,10 +63,9 @@ const sectors = [
 
 const categories = [
   { id: "bits", name: "DTH Hammers & Drill Bits", img: bits, w: 1024, h: 1024, fit: "cover", items: ["Rock drill bits (140–165mm)", "Tri-cone bits", "High-pressure DTH hammers", "Mission, DHD & Khaishan shanks"] },
-  { id: "pipes", name: "Drill Pipes & Rods", img: pipes, w: 1024, h: 1024, fit: "cover", items: ["Heavy-duty drill pipes", "API & custom thread options", "Multiple lengths & wall gauges"] },
-  { id: "adapters", name: "Adapters & Couplings", img: adapters, w: 1024, h: 1024, fit: "cover", items: ["Sub-adapters", "Saver subs", "Crossover subs", "Male-to-male adapters"] },
-  { id: "hoses", name: "Air Hoses & Fittings", img: hoses, w: 511, h: 574, fit: "contain", items: ["High-pressure air hoses", "Water hoses", "Safety whipchecks", "Claw couplings & fittings"] },
-  { id: "consumables", name: "Consumables & Accessories", img: bits, w: 1024, h: 1024, fit: "cover", items: ["Thread grease", "Foam agents", "Shock absorbers", "Rock drill oil"] },
+  { id: "pipes", name: "Drill Pipes & Rods", img: pipes, w: 1024, h: 1024, fit: "cover", items: ["Heavy-duty drill pipes", "Drill Rods"] },
+  { id: "adapters", name: "Adapters & Couplings", img: adapters, w: 1024, h: 1024, fit: "cover", items: ["Sub-adapters", "Female-to-female adapters", "Male-to-male adapters"] },
+  { id: "hoses", name: "Air Hoses & Fittings", img: hoses, w: 511, h: 574, fit: "contain", items: ["High-pressure air hoses"] },
 ];
 
 const why = [
