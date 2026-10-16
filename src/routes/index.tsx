@@ -11,7 +11,7 @@ import pipes from "@/assets/pipes.jpg";
 import adapters from "@/assets/adapters.jpg";
 import catalogue from "@/assets/Sage-Creek-Catalogue-2026.pdf";
 import logo from "@/assets/sage-creek-no-bg.png";
-import hoses from "@/assets/air-hose-and-fittings.png";
+import hoses from "@/assets/air-hose-and-fittings.jpeg";
 import cavern from "@/assets/cavern-team.png";
 import { Button } from "@/components/ui/button";
 
