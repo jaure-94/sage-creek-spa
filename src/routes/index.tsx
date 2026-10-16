@@ -62,7 +62,7 @@ const sectors = [
 ];
 
 const categories = [
-  { id: "bits", name: "DTH Hammers & Drill Bits", img: bits, w: 1024, h: 1024, fit: "cover", items: ["Rock drill bits (140–165mm)", "Tri-cone bits", "High-pressure DTH hammers", "Mission, DHD & Khaishan shanks"] },
+  { id: "bits", name: "DTH Hammers & Drill Bits", img: bits, w: 1024, h: 1024, fit: "cover", items: ["Rock drill bits", "Tri-cone bits", "High-pressure DTH hammers", "Mission, DHD & Khaishan shanks"] },
   { id: "pipes", name: "Drill Pipes & Rods", img: pipes, w: 1024, h: 1024, fit: "cover", items: ["Heavy-duty drill pipes", "Drill Rods"] },
   { id: "adapters", name: "Adapters & Couplings", img: adapters, w: 1024, h: 1024, fit: "cover", items: ["Sub-adapters", "Female-to-female adapters", "Male-to-male adapters"] },
   { id: "hoses", name: "Air Hoses & Fittings", img: hoses, w: 511, h: 574, fit: "contain", items: ["High-pressure air hoses"] },
