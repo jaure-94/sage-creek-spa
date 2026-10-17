@@ -8,7 +8,7 @@ import {
 import hero from "@/assets/hero.jpg";
 import bits from "@/assets/bits.jpg";
 import pipes from "@/assets/pipes.jpg";
-import adapters from "@/assets/adapters.jpg";
+import adapters from "@/assets/adapters.jpeg";
 import catalogue from "@/assets/Sage-Creek-Catalogue-2026.pdf";
 import logo from "@/assets/sage-creek-no-bg.png";
 import hoses from "@/assets/air-hose-and-fittings.jpeg";
